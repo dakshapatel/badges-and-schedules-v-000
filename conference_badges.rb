@@ -1,8 +1,24 @@
 # Write your code here.
 require 'pry'
 
-def badge_maker("Ariel")
+attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+
+
+def badge_maker(name)
 # binding.pry
-    puts "Hello, my name is "Ariel"
+  "Hello, my name is #{name}"
+end
+
+
+def batch_badge_creator(speaker)
 
 end
+
+
+def assign_rooms(speakers)
+end
+
+
+def printer
+   batch_badge_creator
+ end
