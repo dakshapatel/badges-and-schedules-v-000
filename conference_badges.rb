@@ -1,7 +1,7 @@
 # Write your code here.
 require 'pry'
 
-attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 
 def badge_maker(name)
@@ -10,10 +10,10 @@ def badge_maker(name)
 end
 
 
-def batch_badge_creator(speaker)
+def batch_badge_creator(speakers)
   speakers.map do |attendee|
     "Hello, my name is #{attendee}"
-  end 
+  end
 end
 
 
